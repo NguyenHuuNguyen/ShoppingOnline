@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Podkova';
+  src: url('/public/asset/fonts/Podkova-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Podkova', sans-serif;
+  background: #FFF;
+}
+
+.box-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-box-shadow {
+  box-shadow: 2px 5px 50px 10px rgba(0, 0, 0, 0.25);
+}
+
+.background-transparent {
+  background-color: rgba(133, 118, 118, 0.4);
+}
+
+.nav-link-active {
+  border: 2px solid #0b914e;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
